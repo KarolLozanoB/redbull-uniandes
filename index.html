@@ -2596,6 +2596,46 @@ p.loyal span{text-decoration-color:#3d9be0 !important;border-color:#3d9be0 !impo
 .deal-steps li span{background:#0b7c72 !important;color:#fff !important}
 .deal-steps li.wip span{background:transparent !important;color:#0b7c72 !important}
 .teams .team::before{background:#1b2a4a !important}
+/* ================= MOBILE (phones) ================= */
+@media (max-width:760px){
+  .rail,.hud{display:none !important}
+  main{padding-left:0 !important;border-left:0 !important;border-top:0 !important;zoom:1 !important}
+  .wrap{padding:0 18px !important}
+  .wrap *{min-width:0}
+  .nowrap,.fuel2 .st2{white-space:normal !important}
+  /* hero license */
+  .lic-body.has-photo{grid-template-columns:112px 1fr !important;gap:12px !important;padding:14px !important}
+  .lic-fields{grid-template-columns:1fr !important;gap:8px !important}
+  .lic-fields dd{overflow-wrap:anywhere}
+  /* profile */
+  .profile-top{grid-template-columns:1fr !important}
+  .pol-wrap{grid-template-columns:1fr !important;width:100% !important;max-width:340px;margin:0 auto}
+  .profile-text{width:auto !important}
+  /* fuel */
+  .fuel2 .fuel-intro{grid-template-columns:1fr !important;justify-items:start}
+  .fuel2 .can-stage{order:2 !important;width:100% !important;height:310px !important;justify-self:center !important;margin-bottom:24px !important}
+  .fuel2 .can-stage .can{right:24px !important;left:auto !important;margin-left:0}
+  .fuel2 .st2{font-size:20px !important}
+  .fuel2 .puddle-box .study-grid,.study-row .puddle-box .study-grid{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:12px !important;justify-content:stretch !important}
+  .fuel2 .puddle-box .study-grid .m-card{grid-template-columns:1fr !important;width:auto !important;max-width:none !important}
+  .fuel2 .puddle-box .study-grid .m-card video{width:100% !important;height:auto !important;aspect-ratio:9/16;object-fit:cover}
+  .pt-ghosts{grid-template-columns:repeat(2,1fr) !important;padding:70px 18px 18px !important}
+  .fuel2 .st3{font-size:28px !important}
+  .fuel-copy .pour-row{flex-wrap:wrap}
+  /* initiatives */
+  .team-body{width:auto !important}
+  .growth3.g4{grid-template-columns:1fr !important}
+  .deal-title{flex-wrap:wrap !important}
+  .lic-photo-slot{width:112px !important}
+  h2.head{font-size:clamp(34px,11vw,46px) !important;overflow-wrap:anywhere}
+  .kradio .c-row{display:flex !important;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px !important;padding-bottom:10px;margin-right:-18px;padding-right:18px}
+  .kradio .cphone{flex:0 0 200px !important;width:200px !important;scroll-snap-align:start}
+  .fuel-copy .pour-row .draw-arrow{display:none !important}
+  .fuel2 .fuel-copy .pour-note{white-space:normal !important;font-size:19px !important}
+  .deal-steps li{white-space:normal !important}
+  a[href^="mailto:"]{font-size:13.5px !important;overflow-wrap:anywhere}
+  p.env-hint#env-hint{margin-top:30px !important;position:relative;z-index:3}
+}
 </style>
 </head>
 <body>
